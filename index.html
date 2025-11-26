@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafia: Všetko Najlepšie!</title>
+    <style>
+        body {
+            /* Mafia téma: tmavé farby */
+            background-color: #1a1a1a; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Times New Roman', serif; /* Viac k téme */
+            flex-direction: column;
+        }
+        
+        .card-container {
+            padding: 20px;
+            background-color: #000000; /* Čierny rám */
+            border: 5px solid #ffcc00; /* Zlatý/žltý okraj */
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(255, 204, 0, 0.4); /* Zlatý tieň */
+            text-align: center;
+        }
+
+        .gift-card-image {
+            /* Nastavenie obrázka */
+            max-width: 90vw;
+            max-height: 80vh;
+            height: auto;
+            border-radius: 8px;
+            display: block; /* Dôležité pre správne zobrazenie */
+        }
+
+        h1 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .audio-player {
+            margin-top: 20px;
+            /* Ak chcete mať prehrávač neviditeľný, odstráňte komentár nižšie. 
+               Prehrávač však väčšinou musí byť viditeľný, aby sa dal spustiť. */
+            /* display: none; */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <h1>Exkluzívne Pre Teba!</h1>
+        <img class="gift-card-image" src="gift.png" alt="Tvoja darčeková karta Mafia">
+        
+        <audio controls class="audio-player" autoplay>
+            <source src="M Dulu 4928-28 4.mp3" type="audio/mpeg">
+            Váš prehliadač nepodporuje prehrávanie zvuku.
+        </audio>
+    </div>
+    
+    <p style="color: #ccc; font-size: 0.8em; margin-top: 10px;">Klikni na tlačidlo Play pre mafiánsku atmosféru!</p>
+
+</body>
+</html>
