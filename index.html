@@ -43,9 +43,10 @@
 
         .audio-player {
             margin-top: 20px;
+            width: 100%
             /* Ak chcete mať prehrávač neviditeľný, odstráňte komentár nižšie. 
                Prehrávač však väčšinou musí byť viditeľný, aby sa dal spustiť. */
-            /* display: none; */
+            filter: invert(1);
         }
 
     </style>
@@ -53,7 +54,7 @@
 <body>
 
     <div class="card-container">
-        <h1>Exkluzívne Pre Teba!</h1>
+        <h1>Exkluzívne Pre Teba, Don!</h1>
         <img class="gift-card-image" src="gift.png" alt="Tvoja darčeková karta Mafia">
         
         <audio controls class="audio-player" autoplay>
@@ -65,4 +66,5 @@
     <p style="color: #ccc; font-size: 0.8em; margin-top: 10px;">Klikni na tlačidlo Play pre mafiánsku atmosféru!</p>
 
 </body>
+
 </html>
